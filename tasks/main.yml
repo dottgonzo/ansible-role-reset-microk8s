@@ -1,0 +1,5 @@
+---
+- name: Reset Kubernetes
+  command: "kubeadm reset -f"
+- name: Remove kube
+  command: "sudo rm -rf ~/.kube"
